@@ -33,7 +33,7 @@ activemq_group: ubuntu
 
     - hosts: webservers
       roles:
-        - { role: islandora.activemq }
+        - { role: Islandora-Devops.activemq }
 
 ## License
 

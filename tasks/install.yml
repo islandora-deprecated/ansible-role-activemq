@@ -17,7 +17,7 @@
 - name: Create symlink
   file:
     state: link
-    src: "/opt/activemq/bin/activemq"
+    src: "{{ activemq_install_root }}/activemq/bin/activemq"
     dest: "/etc/init.d/activemq"
 
 - name: Reload systemd
