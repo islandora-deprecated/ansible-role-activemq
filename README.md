@@ -22,7 +22,11 @@ activemq_install_root: /opt
 User\group to install as:
 ```
 activemq_user: ubuntu
-activemq_group: ubuntu
+```
+
+Whether to create user if not present:
+```
+activemq_create_user: yes
 ```
 
 ## Dependencies
